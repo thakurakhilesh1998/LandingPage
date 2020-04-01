@@ -1,0 +1,25 @@
+.header
+{
+    top:0px;
+    left: 0px;
+    background-color: #381460;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+.naviagation-items li
+{
+    list-style-type: none;
+    margin: 0.6rem;
+}
+.naviagation-items li a
+{
+text-decoration: none;
+color:white;
+}

@@ -1,0 +1,37 @@
+.main
+{
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(auto,auto);
+    grid-template-areas: "tl tr"
+    "tl1 tr1"
+    "tl2 tr2"
+    "tl3 tr3";
+    padding: 1rem;
+}
+.section1
+{
+    grid-area: tl;
+}
+.section2
+{
+    grid-area: tr1;
+}
+.section3
+{
+    grid-area: tl2;
+}
+.section4{
+    grid-area: tr3;
+}
+.section
+{
+    display: flex;
+    flex-direction: column;
+    border: thick solid gray;
+    margin: 0.2rem;
+    padding: 0.4rem;
+}
